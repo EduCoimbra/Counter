@@ -19,10 +19,11 @@ btns.forEach(function(btn){
       count = 0;
     }
 
+    // Colors of the buttons
     if(count < 0){
       value.style.color = "tomato";
     }
-    else if(count > 0){
+    if(count > 0){
       value.style.color = "green";
     }
     if(count === 0){
@@ -30,7 +31,7 @@ btns.forEach(function(btn){
     }
     value.textContent = count;
 
-  // console.log(btn)
-  // console.log(e.currentTarget.classList);
+    // console.log(btn)
+    // console.log(e.currentTarget.classList);
   })
 })
