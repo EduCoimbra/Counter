@@ -1,4 +1,4 @@
-// set initial count
+// Set initial count
 let count = 0;
 
 // Select value and buttons
